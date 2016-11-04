@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container_rellayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+
+    <com.devs.squaremenu.SquareMenu
+    android:id="@+id/square_menu"
+    app:fabSize="80"
+    app:fabColor="@color/colorAccent"
+    app:menuOpenDirection="top_left"
+    app:iconM1="@drawable/sear20"
+    app:iconM2="@drawable/edit20"
+    app:iconM3="@drawable/delfill20"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginEnd="28dp" />
+
+</RelativeLayout>
+
+
